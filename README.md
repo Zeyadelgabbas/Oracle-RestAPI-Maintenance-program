@@ -20,7 +20,3 @@ The project connects to Oracle Fusion using REST APIs and executes the logic fro
 - Supports automation logic for maintenance processes
 - Runs from a single main Python entry point
 - Can be extended for work orders, meters, assets, and condition events
-
-├── requirements.txt
-├── .gitignore
-└── README.md
