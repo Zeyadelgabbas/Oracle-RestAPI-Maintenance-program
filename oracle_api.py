@@ -3,11 +3,6 @@ oracle_api.py
 =============
 Oracle Fusion REST API functions.
 
-Critical fix:
-- For the wrapper action body, POST to /maintenanceWorkOrders.
-- Do NOT post the wrapper body to /maintenanceWorkOrders/action/createConditionBasedWorkOrders.
-- Your Oracle GET showed EventCode = ZE2_OIL_CODE, so .env must use:
-  CONDITION_EVENT_CODE=ZE2_OIL_CODE
 """
 
 from __future__ import annotations
